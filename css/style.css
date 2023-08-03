@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url(../fonts/NightinTokyo.ttf);
+  src: url(../fonts/NightinTokyoShadow.ttf);
+  src: url(../fonts/NightinTokyo-Bold.ttf);
+}
+
+:root {
+  --main-color: #b5ccdc;
+  --light-color: #f4f4f4;
+  --dark-color: #4e4b4b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(#b5ccdc, white);
+}
+
+.bg-image {
+  min-height: 95vh;
+  background-image: url(../assets/tomas-malik-fuji.jpg);
+  background-repeat: no-repeat;
+  background-size: 50rem;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  width: 50rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -10rem;
+}
+
+#logo {
+  width: 10rem;
+  opacity: 0.8;
+}
+
+.signature {
+  color: var(--light-color);
+  font-family: "CustomFont", Arial, Helvetica, sans-serif;
+  font-size: 2.8rem;
+}
+
+.right-container {
+  display: flex;
+  align-items: flex-start;  
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.div-quote {
+  position: relative;
+  bottom: 5rem;
+}
+
+.quote {
+  font-family: "CustomFont", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  /* white-space: pre-wrap; */
+}
+
+.fullname,
+.contact-info,
+.password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  /* width: 100%; */
+}
+
+.fullname label,
+.contact-info label,
+.password label {
+  width: 8rem; 
+}
+
+.fullname input,
+.contact-info input,
+.password input {
+  padding: 0.8rem;
+}
+
+footer {
+  font-family: "CustomFont", Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: linear-gradient(#b5ccdc, white);
+}
