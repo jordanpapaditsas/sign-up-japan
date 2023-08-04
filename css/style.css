@@ -15,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "CustomFont", Arial, Helvetica, sans-serif;
 }
 
 body, html {
@@ -56,7 +57,6 @@ body, html {
 
 .signature {
   color: var(--light-color);
-  font-family: "CustomFont", Arial, Helvetica, sans-serif;
   font-size: 2.8rem;
 }
 
@@ -73,7 +73,6 @@ body, html {
 }
 
 .quote {
-  font-family: "CustomFont", Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
   letter-spacing: .1rem;
   margin-bottom: 4rem;
@@ -126,7 +125,6 @@ input[type="password"]:focus {
 }
 
 footer {
-  font-family: "CustomFont", Arial, Helvetica, sans-serif;
   text-align: center;
   background: linear-gradient(#b5ccdc, white);
 }
@@ -477,7 +475,6 @@ footer {
   
   .signature {
     color: var(--light-color);
-    font-family: "CustomFont", Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
   }
   
@@ -486,7 +483,6 @@ footer {
   }
   
   .quote {
-    font-family: "CustomFont", Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
     letter-spacing: .1rem;
     margin-top: 0.4rem;
@@ -527,7 +523,6 @@ footer {
   }
   
   footer {
-    font-family: "CustomFont", Arial, Helvetica, sans-serif;
     text-align: center;
     background: linear-gradient(#b5ccdc, white);
   }
