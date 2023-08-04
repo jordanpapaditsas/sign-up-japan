@@ -164,3 +164,395 @@ footer {
   color: var(--dark-color);
 }
 
+@media (max-width: 1375px) {
+  .form-row {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1277px) {
+  .bg-image {
+    min-height: 95vh;
+    background-image: url(../assets/tomas-malik-fuji.jpg);
+    background-repeat: no-repeat;
+    background-size: 35rem;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-container {
+    width: 35rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -12rem;
+  }
+
+  #logo {
+    width: 8rem;
+    opacity: 0.8;
+  }
+
+  .quote {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .sign-up {
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 1rem;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    width: 40%;
+  }
+
+  .firstname-div input,
+  .lastname-div input,
+  .email-div input,
+  .phone-div input,
+  .password-div input {
+    width: 90%;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+  }
+
+  .firstname-div label,
+  .lastname-div label,
+  .email-div label,
+  .phone-div label,
+  .password-div label {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1031px) {
+  .bg-image {
+    min-height: 95vh;
+    background-image: url(../assets/tomas-malik-fuji.jpg);
+    background-repeat: no-repeat;
+    background-size: 35rem;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-container {
+    width: 35rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -14rem;
+  }
+
+  #logo {
+    width: 7rem;
+    opacity: 0.8;
+  }
+
+  .quote {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .sign-up {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 1rem;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    width: 70%;
+  }
+
+  .firstname-div input,
+  .lastname-div input,
+  .email-div input,
+  .phone-div input,
+  .password-div input {
+    width: 90%;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+  }
+
+  .firstname-div label,
+  .lastname-div label,
+  .email-div label,
+  .phone-div label,
+  .password-div label {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 921px) {
+
+  .bg-image {
+    min-height: 95vh;
+    background-image: url(../assets/tomas-malik-fuji.jpg);
+    background-repeat: no-repeat;
+    background-size: 35rem;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-container {
+    width: 28rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -14rem;
+  }
+
+  #logo {
+    width: 6rem;
+    opacity: 0.8;
+  }
+
+  .quote {
+    font-size: 0.8rem;
+    text-align: left;
+    margin-right: 1rem;
+  }
+
+  .sign-up {
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+  }
+
+  .form-row {
+    width: 100%;
+  }
+
+  .firstname-div input,
+  .lastname-div input,
+  .email-div input,
+  .phone-div input,
+  .password-div input {
+    width: 90%;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+  }
+
+  .firstname-div label,
+  .lastname-div label,
+  .email-div label,
+  .phone-div label,
+  .password-div label {
+    width: 90%;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 731px) {
+  .bg-image {
+    min-height: 95vh;
+    background-image: url(../assets/tomas-malik-fuji.jpg);
+    background-repeat: no-repeat;
+    background-size: 35rem;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-container {
+    width: 22rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -14rem;
+  }
+
+  #logo {
+    width: 5rem;
+    opacity: 0.8;
+  }
+
+  .quote {
+    font-size: 0.8rem;
+    text-align: left;
+    margin-right: 2.5rem;
+  }
+
+  .sign-up {
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+  }
+
+  .form-row {
+    width: 100%;
+  }
+
+  .firstname-div input,
+  .lastname-div input,
+  .email-div input,
+  .phone-div input,
+  .password-div input {
+    width: 90%;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+  }
+
+  .firstname-div label,
+  .lastname-div label,
+  .email-div label,
+  .phone-div label,
+  .password-div label {
+    width: 90%;
+    font-size: 0.7rem;
+  }
+
+  .create-acc-div {
+    font-size: 0.8rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 633px) {  
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .bg-image {
+    background-image: url(../assets/tomas-malik-fuji-resized.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 10vh;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -1rem; 
+    width: 50rem;
+  }
+  
+  #logo {
+    width: 4rem;
+    opacity: 0.8;
+  }
+  
+  .signature {
+    color: var(--light-color);
+    font-family: "CustomFont", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .right-container {
+    width: 90%;
+  }
+  
+  .quote {
+    font-family: "CustomFont", Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: .1rem;
+    margin-top: 0.4rem;
+  }
+  
+  .sign-up {
+    font-size: 1.2rem;
+  }
+    
+  .form-row {
+    display: flex;
+    width: 70%;
+  }
+  
+  .firstname-div input,
+  .lastname-div input,
+  .email-div input,
+  .phone-div input,
+  .password-div input {
+    width: 100%;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+  }
+  
+  .firstname-div label,
+  .lastname-div label,
+  .email-div label,
+  .phone-div label,
+  .password-div label {
+    width: 100%;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border: 2px solid rgb(11, 148, 11);
+  }
+  
+  footer {
+    font-family: "CustomFont", Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(#b5ccdc, white);
+  }
+
+  #create-account-btn {
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    background-color: #678296;
+    color: var(--light-color);
+    border-style: none;
+    transition: 0.1s;
+  }
+  
+  #create-account-btn:hover {
+    color: var(--light-color);
+    background-color: var(--dark-color);
+  }
+  
+  #login {
+    text-decoration: none;
+    color: #678296;
+    font-size: 1.1rem;
+  }
+  
+  #login:hover {
+    color: var(--dark-color);
+  }
+}
