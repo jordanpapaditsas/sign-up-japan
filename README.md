@@ -7,9 +7,6 @@ The Japanese theme adds an enchanting touch, making it an attractive and engagin
 ## Link Preview
 **https://jordanpapaditsas.github.io/sign-up-japan/**
 
-## Link Preview
-**https://jordanpapaditsas.github.io/sign-up-japan/**
-
 ## Features
 <ul>
   <li>Japanese-themed design with custom font</li>
