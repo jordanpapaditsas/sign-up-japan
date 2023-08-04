@@ -1,10 +1,8 @@
 # Sign-up Form
 
 ## Description
-A responsive sign-up validation form with a Japanese theme and font. The form is created using HTML and CSS,   
-and it provides validation for the user inputs to ensure a smooth sign-up process.   
-The Japanese theme adds an enchanting touch, making it an attractive and engaging form for users.  
-(This is not a real sign up form, nor keeps any information given)
+A responsive sign-up validation form with a Japanese theme and font. The form is created using HTML and CSS, and it provides validation for the user inputs to ensure a smooth sign-up process.   
+The Japanese theme adds an enchanting touch, making it an attractive and engaging form for users.  (This is not a real sign up form, nor keeps any information given)
 
 ## Link Preview
 **https://jordanpapaditsas.github.io/sign-up-japan/**
