@@ -16,42 +16,47 @@
     </div>
 
     <div class="right-container">
-      <div class="div-quote">
-        <p class="quote">
-          Embark on an unforgettable journey to Japan - 
-          a land of dreams and enchantment!
-          Your paradise awaits!<br>
-          Sign up now to experience the magic
-        </p>
-      </div>
+      <p class="quote">
+        Embark on an unforgettable journey to Japan - 
+        a land of dreams and enchantment!
+        Your paradise awaits!
+      </p>
+      <p class="sign-up"><strong><i>Sign up now to experience the magic!</strong></i></p>
     
-      <div class="div-form">
-        <form class="form" action="#">
-          <div class="fullname">
+      <form class="form" action="#">
+        <div class="form-row">
+          <div class="firstname-div">
             <label for="firstname">FIRST NAME</label>
-            <input id="firstname" type="text" name="firstname">
+            <input id="firstname" type="text" name="firstname" min="2" max="20" required>
+          </div>
+          <div class="lastname-div">
             <label for="lastname">LAST NAME</label>
-            <input id="lastname" type="text" name="lastname">
+            <input id="lastname" type="text" name="lastname" min="2" max="25" required>
           </div>
-          <div class="contact-info">
-            <label for="">EMAIL</label>
-            <input type="text">
-            <label for="">PHONE NUMBER</label>
-            <input type="text">
+          <div class="email-div">
+            <label for="email">EMAIL</label>
+            <input id="email" type="email" name="email" required>
           </div>
-          <div class="password error">
-            <label for="">PASSWORD</label>
-            <input type="text">
-            <label for="">CONFIRM PASSWORD</label>
-            <input type="text">
+        </div>
+        <div class="form-row">
+          <div class="phone-div">
+            <label for="phone">PHONE NUMBER</label>
+            <input id="phone" type="text" name="phone" minlength="2" pattern="[0-9]*">
           </div>
-        </form>
-      </div>
-
-      <div class="create-acc-div">
-        <button id="create-account-btn" type="submit">Create Account</button>
-        <p>Already have an account? <a id="login" href="#">Log in</a></p>
-      </div>
+          <div class="password-div error">
+            <label for="password">PASSWORD</label>
+            <input id="password" type="password" name="password" minlength="8" required>
+          </div>
+          <div class="password-div error">
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input id="confirm-password" type="password" minlength="8" name="confirm-password" required>
+          </div>
+        </div>
+        <div class="create-acc-div">
+          <button id="create-account-btn" type="submit">Create Account</button>
+          <p><strong>Already have an account? <a id="login" href="#">Log in</a></strong></p>
+        </div>
+      </form>
     </div>
   </div>
 

@@ -62,46 +62,67 @@ body, html {
 
 .right-container {
   display: flex;
-  align-items: flex-start;  
-  justify-content: flex-start;
   flex-direction: column;
-  text-align: left;
-}
-
-.div-quote {
-  position: relative;
-  bottom: 5rem;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 50rem;
+  text-align: center;
+  margin-left: 2rem;
 }
 
 .quote {
   font-family: "CustomFont", Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   letter-spacing: .1rem;
-  /* white-space: pre-wrap; */
+  margin-bottom: 4rem;
 }
 
-.fullname,
-.contact-info,
-.password {
+.sign-up {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+}
+
+form {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+  gap: 2rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 1rem;
   gap: 1rem;
-  /* width: 100%; */
+  width: 38%;
 }
 
-.fullname label,
-.contact-info label,
-.password label {
-  width: 8rem; 
+.firstname-div input,
+.lastname-div input,
+.email-div input,
+.phone-div input,
+.password-div input {
+  width: 100%;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
 }
 
-.fullname input,
-.contact-info input,
-.password input {
-  padding: 0.8rem;
+.firstname-div label,
+.lastname-div label,
+.email-div label,
+.phone-div label,
+.password-div label {
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border: 2px solid rgb(11, 148, 11);
 }
 
 footer {
@@ -109,3 +130,37 @@ footer {
   text-align: center;
   background: linear-gradient(#b5ccdc, white);
 }
+
+.create-acc-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#create-account-btn {
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  background-color: #678296;
+  color: var(--light-color);
+  border-style: none;
+  transition: 0.1s;
+}
+
+#create-account-btn:hover {
+  color: var(--light-color);
+  background-color: var(--dark-color);
+}
+
+#login {
+  text-decoration: none;
+  color: #678296;
+  font-size: 1.1rem;
+}
+
+#login:hover {
+  color: var(--dark-color);
+}
+
