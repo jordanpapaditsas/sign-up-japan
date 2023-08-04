@@ -6,6 +6,9 @@ and it provides validation for the user inputs to ensure a smooth sign-up proces
 The Japanese theme adds an enchanting touch, making it an attractive and engaging form for users.  
 (This is not a real sign up form, nor keeps any information given)
 
+## Link Preview
+**https://jordanpapaditsas.github.io/sign-up-japan/**
+
 ## Features
 <ul>
   <li>Japanese-themed design with custom font</li>
