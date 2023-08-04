@@ -32,7 +32,7 @@ body, html {
 
 .bg-image {
   min-height: 95vh;
-  background-image: url(../assets/tomas-malik-fuji.jpg);
+  background-image: url(../assets/tomas-malik-fuji.webp);
   background-repeat: no-repeat;
   background-size: 50rem;
   display: flex;  
@@ -172,7 +172,6 @@ footer {
 @media (max-width: 1277px) {
   .bg-image {
     min-height: 95vh;
-    background-image: url(../assets/tomas-malik-fuji.jpg);
     background-repeat: no-repeat;
     background-size: 35rem;
     display: flex;  
@@ -244,7 +243,6 @@ footer {
 @media (max-width: 1031px) {
   .bg-image {
     min-height: 95vh;
-    background-image: url(../assets/tomas-malik-fuji.jpg);
     background-repeat: no-repeat;
     background-size: 35rem;
     display: flex;  
@@ -317,7 +315,6 @@ footer {
 
   .bg-image {
     min-height: 95vh;
-    background-image: url(../assets/tomas-malik-fuji.jpg);
     background-repeat: no-repeat;
     background-size: 35rem;
     display: flex;  
@@ -378,7 +375,6 @@ footer {
 @media (max-width: 731px) {
   .bg-image {
     min-height: 95vh;
-    background-image: url(../assets/tomas-malik-fuji.jpg);
     background-repeat: no-repeat;
     background-size: 35rem;
     display: flex;  
