@@ -43,4 +43,3 @@ All contributions are welcomed! If you'd like to contribute, please follow these
 ## License
 This project is licensed under the MIT License.
 
-Feel free to use, modify, and distribute the code as per the license terms.
